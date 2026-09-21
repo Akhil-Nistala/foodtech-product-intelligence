@@ -1,4 +1,4 @@
-# Food Delivery Product Analytics — Funnel & Experimentation
+# FoodTech Product Intelligence — Funnel & Experimentation
 
 A product-analytics project simulating a food-delivery marketplace (Zomato/Swiggy-style):
 funnel analysis, cohort retention, growth metrics, real-data delivery-performance analysis,

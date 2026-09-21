@@ -13,7 +13,7 @@ def code(text):
     cells.append(nbf.v4.new_code_cell(text))
 
 
-md(r"""# Food-Delivery Product Analytics: Funnel, Cohorts, Growth & an A/B Test
+md(r"""# FoodTech Product Intelligence: Funnel, Cohorts, Growth & an A/B Test
 
 A Zomato/Swiggy-style marketplace analytics project. It combines a **real, order-level
 Kaggle dataset** with a **synthetic clickstream/user layer**, because the real dataset has
