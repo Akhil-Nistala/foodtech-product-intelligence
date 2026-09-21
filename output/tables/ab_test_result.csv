@@ -1,0 +1,2 @@
+n_control,n_treatment,conversions_control,conversions_treatment,rate_control,rate_treatment,absolute_lift_pp,relative_lift_pct,z_statistic,p_value_ztest,chi2_statistic,p_value_chi2,ci95_low_pp,ci95_high_pp,decision
+5200,5200,3330,3776,0.6403846153846153,0.7261538461538461,8.576923076923082,13.393393393393401,9.401066600013813,5.401272513346966e-21,88.38005321789518,5.401272513347292e-21,6.796360520255486,10.357485633590677,SHIP

@@ -1,0 +1,5 @@
+test,method,statistic,p_value
+distance_km vs time_taken_min,Pearson r,0.32170310355298753,0.0
+traffic_density (ordinal) vs time_taken_min,Spearman rho,0.4221414019946602,0.0
+weather vs time_taken_min,One-way ANOVA F,608.2196392451818,0.0
+multiple_deliveries vs time_taken_min,Pearson r,0.38705057656772135,0.0

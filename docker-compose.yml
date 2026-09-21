@@ -1,0 +1,17 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: food_delivery_analytics_mysql
+    environment:
+      MYSQL_DATABASE: food_delivery_analytics
+      MYSQL_USER: analytics
+      MYSQL_PASSWORD: analytics123
+      MYSQL_ROOT_PASSWORD: root
+    command: --local-infile=1
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysqldata:/var/lib/mysql
+
+volumes:
+  mysqldata:

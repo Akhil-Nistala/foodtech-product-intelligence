@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large, regeneratable derived data -- run `python python/run_pipeline.py` to recreate.
+# The REAL raw Kaggle data (data/raw/) IS committed -- that's the evidentiary source, not
+# a build artifact.
+data/processed/*.csv
+!data/processed/.gitkeep

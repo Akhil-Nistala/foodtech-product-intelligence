@@ -1,0 +1,15 @@
+# Core analysis
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+
+# Notebook build/execution
+nbformat>=5.9
+nbclient>=0.9
+ipykernel>=6.29
+jupyterlab>=4.0        # optional, only needed to interactively open analysis.ipynb
+
+# Optional: only needed if loading data into MySQL from Python instead of
+# `mysql -u ... < sql/01_load_data.sql`
+mysql-connector-python>=8.0
